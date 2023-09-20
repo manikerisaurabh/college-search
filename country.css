@@ -1,0 +1,76 @@
+body {
+    
+    background-image: url("https://www.bgcirc.org/images/College-and-Careers-website-banner-1.png");
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: invert(80%);
+}
+
+.container {
+
+    margin: auto;
+    height: 300px;
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    overflow: scroll;
+    position:absolute;
+    left:30%;
+    
+}
+
+.input:hover {
+    height: 20px;
+    width: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: .25s;
+}
+.takeInp {
+    top:10px;
+    height:30px;
+    width: 53%;
+    text-align: center;
+    position: fixed;
+	text-align: center;
+    align-items: center;
+    left: 30%;
+    background-color: #888888;
+    
+}
+
+.btn:hover {
+    background-color: aqua;
+    border: 2px solid green;
+    box-shadow: 2px 2px #888888;
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: center;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px;
+    font-size: 30px;
+}
+.cn {
+    text-align: center;
+    color: red;
+    font-size: 80px;
+}
+
+.web {
+    position: relative;
+    right: 0;
+    background-color: yellow;
+}
+.listt :hover{
+    border:  1px solid rgb(0, 0, 0);
+    background-color: #8d8686;
+    border-radius: 5px;
+    transition: 0.2s;
+}
